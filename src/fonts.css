@@ -1,15 +1,23 @@
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     background: #48e;
+    box-sizing: border-box;
 }
 textarea {
     resize: none;
+}
+
+.body--todo {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .app--todo {
     background: #e8e8e8;
     border-radius: 3px;
     max-width: 40%;
+    margin-bottom: 50px;
 }
 
 .li--todo {
@@ -20,9 +28,13 @@ textarea {
     font-weight: 600;
 }
 
-.app--footer {
+.links--footer {
     display: flex;
     justify-content: center;
+}
+
+.app--footer {
+    margin-top: auto;
 }
 
 i {
@@ -54,11 +66,7 @@ a:hover {
     }
 
     a {
-        margin: 20px 0;
+        margin: 20px 7px;
     }
 
-    .app--footer {
-        display: flex;
-        justify-content: space-around;
-    }
 }

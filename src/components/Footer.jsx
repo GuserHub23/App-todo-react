@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
-        <footer className="bg-dark fixed-bottom">
-            <div className="app--footer">
+        <footer className="bg-dark app--footer">
+            <div className="links--footer">
                 <a href="https://www.instagram.com" target="_blank">
                     <i className="fab fa-instagram"></i>
                     Instagram
