@@ -1,3 +1,6 @@
+Esto es una aplicación de tareas, donde podes crear tu propia tarea y darle prioridad o cambiar su estado de pendiente a finalizado.
+La app esta subida a Netlify por si quieres verla https://guser-todo.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
